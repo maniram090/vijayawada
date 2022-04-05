@@ -4,14 +4,14 @@ pipeline {
     stage("welcome to pac") {
 	  steps {
 	     script {
-		    sh "Hi team"
+		    sh " echo Hi team"
 		 }
       }
     }
     stage('stage2') {
       steps {
 	     script {
-		    sh "Hi team welcome"
+		    sh "echo Hi team welcome"
 		 }
       }
     }
