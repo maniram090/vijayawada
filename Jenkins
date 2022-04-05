@@ -15,5 +15,51 @@ pipeline {
 		 }
       }
     }
+    stage('stage153') {
+      steps {
+	     script {
+		    sh "echo Pinakini express"
+		 }
+      }
+    }
+    stage('stage180') {
+      steps {
+	     script {
+		    sh "echo sathavana express"
+		 }
+      }
+    }
+    stage('stage198') {
+      steps {
+	     script {
+		    sh "echo ratnachal express"
+		 }
+      }
+    }
+    stage('stage200') {
+      steps {
+	     script {
+		    sh "echo vikramshimhapuri express"
+		 }
+      }
+    }
+    stage('stage220') {
+      steps {
+	     script {
+		    sh "echo employees express"
+		 }
+      }
+    }
+    stage('stage2009') {
+      steps {
+	     script {
+		    sh "echo amaravathi express"
+		 }
+      }
+    }
   }
 }  
+
+
+ 
+
